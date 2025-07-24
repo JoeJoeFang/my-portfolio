@@ -5,6 +5,17 @@
   min-height: 100vh;
 }
 
+.container-space{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./images/background1.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* @keyframes neon-flicker {
   0%, 100% {
     text-shadow:
@@ -24,7 +35,7 @@
   }
 } */
 
-.homepage-title {
+/* .homepage-title {
   font-family: 'Orbitron', sans-serif;
   font-size: 5rem;
   color: #0ff;
@@ -38,38 +49,28 @@
   font-size: 2rem;
   color: #ffffff;
   text-align: left;
-}
+} */
 
-.grid-layout {
+/* .grid-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* 三列 */
-  grid-template-rows: 1fr 1fr;        /* 两行 */
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;        
 
-}
+} */
 
-.top-left {
-  /* background-image: url('./images/homepage-background_left_top.jpg');
-  background-size: contain;
-  background-position: center;
-  border-radius: 2%;  */
-  transition: transform 0.3s, z-index 0s;
-  overflow: hidden;
+/* .top-left {
+
   margin: 1% 1% 1% 1%;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  z-index: 1;
-}
-.top-left:hover {
-  transform: scale(1.01);
-  transition: transform 0.3s ease-in-out;
-  z-index: 10;
+
+  position: relative;
+
 }
 
+
 .bottom-left {
-  /* background-image: url('./images/homepage-background_left_bottom.jpg');
-  background-size: contain;
-  background-position: center;
-  border-radius: 2%; */
+
   transition: transform 0.3s, z-index 0s;
   overflow: hidden;
   margin: 0 1% 1% 1%;
@@ -84,34 +85,16 @@
 }
 
 .home-center {
-  /* background-image: url('./images/homepage-background_mid.jpg');
-  background-size: contain;
-  background-position: center;
-  border-radius: 2%;  */
-  /* transition: transform 0.3s, z-index 0s;
-  position: relative;
-  overflow: hidden;
-  margin-top: 1%; */
+
   margin-top: 0.5%;
   grid-column: 2 / 3;
   grid-row: 1 / 3; 
 
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1; */
 }
-/* .center:hover {
-  transform: scale(1.01);
-  transition: transform 0.3s ease-in-out;
-  z-index: 10;
-} */
+
 
 .top-right {
-  /* background-image: url('./images/homepage-background_right_top.jpg');
-  background-size: contain;
-  background-position: center;
-  border-radius: 2%;   */
+
   transition: transform 0.3s, z-index 0s;
   overflow: hidden;
   margin: 1% 1% 1% 1%;
@@ -125,10 +108,7 @@
   z-index: 10;
 }
 .bottom-right {
-  /* background-image: url('./images/homepage-background_right_bottom.jpg');
-  background-size: contain;
-  background-position: center;
-  border-radius: 2%; */
+
   transition: transform 0.3s, z-index 0s;
   overflow: hidden;
   margin: 0 1% 1% 1%;
@@ -148,4 +128,4 @@
   height: 100%;
   padding: 0;
   border: none;
-}
+} */

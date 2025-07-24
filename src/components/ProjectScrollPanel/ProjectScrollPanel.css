@@ -1,0 +1,22 @@
+.project-scroll-panel{
+  display: flex;
+  width: 60vw;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(167, 163, 163, 0.5);
+  border-radius: 1%;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+
+.panel-white{
+  display: flex;
+  width: 59vw;
+  height: 78vh;
+  background-color: rgba(237, 239, 228, 0.9);
+  border-radius: 1%;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

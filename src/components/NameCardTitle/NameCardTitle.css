@@ -1,0 +1,28 @@
+.name-card__title{
+  grid-area: a;
+  position: fixed;
+  transform-origin: top left;
+  h1{
+    white-space: nowrap;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 6rem; */
+    margin-left: max(15px, 1%);
+    margin-top: max(12px, 0.1%);
+    margin-bottom: 0%;
+    color: rgb(28, 24, 24);
+    letter-spacing: -3px;
+    word-spacing: 20px;
+  }
+  h3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 4%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: rgb(28, 24, 24);
+  }
+}
