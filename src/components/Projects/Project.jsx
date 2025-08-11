@@ -1,9 +1,10 @@
 import React from "react";
-import "./Project.css"
-import project1 from "../../images/profile-pic.jpg";
+import "./Project.css";
+import project1 from "../../images/project1.jpg";
+import { Link } from "react-router-dom";
 
 function Project({ scrollY }) {
-    const isFixed = scrollY > 1350 && scrollY < 2500;
+    const isFixed = scrollY > 1450 && scrollY < 2500;
     return (
         <div className="project">
             <div className="project-card">
@@ -11,7 +12,7 @@ function Project({ scrollY }) {
                     className="project-card__title"
                     style={{
                         position: isFixed ? 'fixed' : 'relative',
-                        top: isFixed ? '20%': 'auto',
+                        top: isFixed ? '30%': 'auto',
                         width: isFixed ? "25%" : "auto",
                     }} 
                 >
@@ -23,7 +24,9 @@ function Project({ scrollY }) {
                     </ul>
                 </div>
                 <div className="project-card__content1">
-                    <img src={project1} alt="Project1" />
+                    <Link to="/projects/ticketing" aria-label="website-detail">
+                        <img src={project1} alt="Project1" />
+                    </Link>
                 </div>
                 <div className="project-card__content2">
                     <img src={project1} alt="Project2" />
