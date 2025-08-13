@@ -34,7 +34,7 @@ function Project({ scrollY }) {
                 <div className="project-card__content3">
                     <img src={project1} alt="Project3" />
                 </div>
-                <div className="project-card__content4">
+                <div className="project-card__content4" onClick={() => window.open("https://joejoefang.github.io/my-portfolio-practice/", "_blank")}>
                     <img src={project1} alt="Project4" />
                 </div>
             </div>

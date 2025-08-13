@@ -5,24 +5,14 @@ export default function ProjectTicketing() {
   return (
     <div className="project1-panel">
       <div className="panel1-white">
-        <h1 style={{ textAlign: "center" }}>Ticket Booking Website (Capstone)</h1>
+        <h1 style={{ textAlign: "center", marginTop:"3rem" }}>Ticket Booking Website (Capstone)</h1>
         <div className="project1-grid">
           <section style={{ margin: "0 3rem", gridArea: "a" }}>
             <h2>Frontend</h2>
             <ul>
-              <li><strong>Framework:</strong> React 18 (built with Create React App)</li>
+              <li><strong>Framework:</strong> React (SPA)</li>
               <li><strong>Routing:</strong> React Router DOM v6 for Single Page Application (SPA) navigation and nested routes</li>
               <li><strong>UI Library:</strong> MUI (Material UI v5) + Emotion (CSS-in-JS solution)
-                <ul>
-                  <li>Rapid development of responsive interfaces</li>
-                  <li>Supports theming and dynamic styling</li>
-                </ul>
-              </li>
-              <li><strong>Interactions & Animations:</strong>
-                <ul>
-                  <li>React Slick + Slick Carousel (event image sliders)</li>
-                  <li>MUI animations (buttons, transitions)</li>
-                </ul>
               </li>
               <li><strong>Data Fetching:</strong> Axios (communication with Flask API backend)</li>
               <li><strong>Date &amp; Time Handling:</strong> Day.js (date/time formatting, calendar components)</li>
@@ -44,7 +34,7 @@ export default function ProjectTicketing() {
                   <li>Password hashing and secure storage (Werkzeug / bcrypt)</li>
                 </ul>
               </li>
-              <li><strong>Data Validation:</strong> Marshmallow (data serialization and validation)</li>
+
             </ul>
           </section>
 
@@ -57,10 +47,19 @@ export default function ProjectTicketing() {
             </ul>
           </section>
 
-          <section style={{ margin: "0 3rem", gridArea: "d" }}>
-            <button onClick={() => window.open("https://joejoefang.github.io/my-ticket-frontend/", "_blank")}>
+          <section style={{ 
+            margin: "0 3rem", 
+            gridArea: "d",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "flex-end"}}>
+            {/* <button onClick={() => window.open("https://joejoefang.github.io/my-ticket-frontend/", "_blank")}>
               Ticket Booking Website
-            </button>
+            </button> */}
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-return-right" viewBox="1 1 16 16">
+              <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+            </svg>
+            <button style={{marginLeft:"2rem"}} type="button" className="tech-button" onClick={() => window.open("https://joejoefang.github.io/my-ticket-frontend/", "_blank")}>Ticket Booking Website</button>
           </section>
         </div> 
         {/* <section style={{ margin: "0 3rem" }}>
