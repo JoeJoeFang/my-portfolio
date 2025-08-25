@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.dad0c83f.css",
-    "main.js": "/my-portfolio/static/js/main.d2d21278.js",
+    "main.css": "/my-portfolio/static/css/main.8f369ff3.css",
+    "main.js": "/my-portfolio/static/js/main.bf36d932.js",
+    "static/media/Complete.mkv": "/my-portfolio/static/media/Complete.ab1f3f76b43208166e10.mkv",
     "static/media/background2.jpg": "/my-portfolio/static/media/background2.72106d2a5edd2351e75c.jpg",
     "static/media/project1.jpg": "/my-portfolio/static/media/project1.5853fd4144c53d41c569.jpg",
+    "static/media/project4.jpg": "/my-portfolio/static/media/project4.7605049b13235d3a9bf0.jpg",
+    "static/media/project3.jpg": "/my-portfolio/static/media/project3.33536c1f3d703f3692fe.jpg",
+    "static/media/Joe Fang Resume_page2.jpg": "/my-portfolio/static/media/Joe Fang Resume_page2.a51b881523a9410f0722.jpg",
+    "static/media/Joe Fang Resume_page1.jpg": "/my-portfolio/static/media/Joe Fang Resume_page1.1d0aa4b6bcae8b7fb085.jpg",
     "static/media/background1.avif": "/my-portfolio/static/media/background1.1f4703f79315eb1cc46b.avif",
+    "static/media/project2.jpg": "/my-portfolio/static/media/project2.a36402b04c326959b8eb.jpg",
     "static/media/profile-pic.jpg": "/my-portfolio/static/media/profile-pic.b3255dd5e3fece1bf053.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.dad0c83f.css.map": "/my-portfolio/static/css/main.dad0c83f.css.map",
-    "main.d2d21278.js.map": "/my-portfolio/static/js/main.d2d21278.js.map"
+    "main.8f369ff3.css.map": "/my-portfolio/static/css/main.8f369ff3.css.map",
+    "main.bf36d932.js.map": "/my-portfolio/static/js/main.bf36d932.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad0c83f.css",
-    "static/js/main.d2d21278.js"
+    "static/css/main.8f369ff3.css",
+    "static/js/main.bf36d932.js"
   ]
 }
