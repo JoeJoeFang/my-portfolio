@@ -1,6 +1,9 @@
 import React from "react";
 import "./Project.css";
 import project1 from "../../images/project1.jpg";
+import project2 from "../../images/project2.jpg";
+import project3 from "../../images/project3.jpg";
+import project4 from "../../images/project4.jpg";
 import { Link } from "react-router-dom";
 
 function Project({ scrollY }) {
@@ -29,13 +32,15 @@ function Project({ scrollY }) {
                     </Link>
                 </div>
                 <div className="project-card__content2">
-                    <img src={project1} alt="Project2" />
+                    <Link to="/projects/intern" aria-label="website-detail">
+                        <img src={project2} alt="Project1" />
+                    </Link>
                 </div>
                 <div className="project-card__content3" onClick={() => window.open(" https://joejoefang.github.io/ProjectMagnifier/", "_blank")}>
-                    <img src={project1} alt="Project3" />
+                    <img src={project3} alt="Project3" />
                 </div>
                 <div className="project-card__content4" onClick={() => window.open(" https://joejoefang.github.io/portfolio-practice/", "_blank")}>
-                    <img src={project1} alt="Project4" />
+                    <img src={project4} alt="Project4" />
                 </div>
             </div>
         </div>

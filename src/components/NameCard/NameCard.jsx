@@ -2,6 +2,7 @@ import React from "react";
 import "./NameCard.css"
 import profiler from "../../images/profile-pic.jpg"
 import NameCardTitle from "../NameCardTitle/NameCardTitle"
+import { Link } from "react-router-dom";
 
 function NameCard({ scrollY }) {
   return (
@@ -12,7 +13,9 @@ function NameCard({ scrollY }) {
       </div> */}
       <NameCardTitle scrollY={scrollY}/>
       <div className="name-card__profile">
-        <img src={profiler} alt="profiler"/>
+        <Link to="/resume" aria-label="Joe_Resume">
+          <img src={profiler} alt="profiler" />
+        </Link>
         <h3>Joe's Resume</h3>
       </div>
       <div className="name-card__down">
