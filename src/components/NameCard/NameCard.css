@@ -8,7 +8,7 @@
   "a a a a b"
   "a a a a b"
   "c c c c d"
-  "c c c c e"
+  "c c c c d"
   "f f f f e";
   margin-bottom: 30%;
   background-color:  rgba(237, 239, 228, 1);
@@ -42,6 +42,13 @@
   }
 } */
 
+.name-card__profile-container{
+  grid-area: d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .name-card__profile{
   grid-area: d;
   display: flex; 
@@ -67,6 +74,7 @@
     text-decoration: underline
   }
 }
+
 
 .name-card__down{
   grid-area: e;
